@@ -1,11 +1,11 @@
-public class Obstacles{
+public class Obstacles {
     public float centerX;
     public float centerY;
     public float xspeed;
     public float yspeed;
     public float radius;
 
-    public Obstacles(){
+  public Obstacles() {
     centerX = 400;
     centerY = 200;
     xspeed = 10;
@@ -13,7 +13,7 @@ public class Obstacles{
     radius = 40;
   }
 
-    public void bounce(){
+    public void bounce() {
         if (centerX > 800 - radius || centerX < 0){
             xspeed = -xspeed;
         }
@@ -22,11 +22,12 @@ public class Obstacles{
         }
     }
 
-    public void moveShape(){
+    public void moveShape() {
         centerX = centerX + xspeed;
         centerY = centerY + yspeed;
     }
 
-    public void draw(){
+    public void draw() {
     }
+    
 }
