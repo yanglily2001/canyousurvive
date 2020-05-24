@@ -42,11 +42,11 @@ void draw(){
     somesquare3.moveShape();
     somecircle.draw();
     somecircle.moveShape();
-    for(int i = 4; i < 9; i++){
+    for (int i = 4; i < 9; i++){
         obstacles.get(i).draw();
         obstacles.get(i).moveShape();
-	    obstacles.get(i).discoMode();
-	    obstacles.get(i).schoolMode();
+	obstacles.get(i).discoMode();
+	obstacles.get(i).schoolMode();
     }
     drawBall();
     moveBall();
@@ -67,7 +67,7 @@ void draw(){
 void drawBall(){
     fill(255, 0, 0);
     ellipse(centerX, centerY, 2*radius, 2*radius);
-	image(sat, centerX - 0.75*radius, centerY - 0.75*radius, 1.5*radius, 1.5*radius);
+    image(sat, centerX - 0.75*radius, centerY - 0.75*radius, 1.5*radius, 1.5*radius);
   }
 
 void moveBall(){
