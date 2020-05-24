@@ -1,1 +1,1 @@
-This very simple program, written using the Processing language, tests whether the player can dodge objects, which represent various obstacles such as homework, teachers, and the SAT exam. This game can be played directly at https://www.openprocessing.org/sketch/618184.
+This very simple program, written using the Processing language, tests whether the player can dodge objects, which represent various obstacles encountered by high school students such as homework, teachers, and the SAT exam. This game can be played directly at https://www.openprocessing.org/sketch/618184.
