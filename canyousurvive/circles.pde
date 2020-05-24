@@ -28,22 +28,22 @@ public class Circles extends Obstacles{
     public void draw(){
         fill(r, g, b);
         ellipse(centerX, centerY, 2*radius, 2*radius);
-				image(teacher, centerX - 0.75*radius, centerY - 0.75*radius, 1.5*radius, 1.5*radius);
+        image(teacher, centerX - 0.75*radius, centerY - 0.75*radius, 1.5*radius, 1.5*radius);
     }
 
-	public void discoMode(){
-		if(keyCode == ENTER){
-			r = int(random(0,255));
-			g = int(random(0,255));
-			b = int(random(0,255));
-		 }
-	}
+    public void discoMode(){
+         if(keyCode == ENTER){
+	    r = int(random(0,255));
+	    g = int(random(0,255));
+	    b = int(random(0,255));
+          }
+    }
 
-	public void schoolMode(){
-		if(key == 'a'){
-			r = 137;
-			g = 56;
-			b = 183;
-		 }
+    public void schoolMode(){
+	if(key == 'a'){
+	   r = 137;
+	   g = 56;
+	   b = 183;
 	}
+     }
 }
